@@ -70,7 +70,7 @@
 - 좌측 `Project` 탭에서 생성한 폴더를 클릭 한 후, `a`키를 입력하면 새로운 파일을 만들 수 있다.
 
 - 파일명 : `README.md`
-  ```
+  ```Bash
   # README.md
   Test File
   ```
@@ -95,7 +95,7 @@
   $git config user.name [USER_NAME]
   $git config user.email [E_MAIL]
   $git remote add origin https://github.com/[USERNAME]/[REPOSITORY_NAME].git
-  ```
+```
 - 순서대로 명령어를 입력한다.  
 ![27](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/27.png)  
   ```Bash
@@ -107,7 +107,7 @@
 ![28](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/28.png)
 
   ```Bash
-  # git push Example
+# git push Example
 $ git push -u origin master
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
@@ -125,7 +125,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 - GitHub Repository에서 Push한 `README.md` 파일을 확인할 수 있다.  
 ![30](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/30.png)  
 
-- Atom에서 `README.md` 파일의 내용을 변경한 후, 파일을 저장하면 `Unstaged Changes`에 파일이 위치하며, `Stage All` 을 클릭하여 모든 파일을 `Staged Changes`로 이동시키거나, 파일을 클릭하여 개별적으로 이동 시킬 수 있다.
+- Atom에서 `README.md` 파일의 내용을 변경한 후, 파일을 저장하면 `Unstaged Changes`에 파일이 위치하며, `Stage All` 을 클릭하여 모든 파일을 `Staged Changes`로 이동시키거나, 파일을 클릭하여 개별적으로 이동 시킬 수 있다.  
 
 - `Commit message`에 내용을 작성하면, 하단에 있는 `Commit to master` 버튼이 활성화 된다. `Commit to master` 버튼을 클릭하면 하단에 `Push` 버튼이 활성화 되고 GitHub Repository로 Push 할 수 있다.  
 ![31](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/31.png)  
