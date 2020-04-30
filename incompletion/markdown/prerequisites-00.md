@@ -12,20 +12,20 @@
 - 계정 검증을 위해 다시한번 퀴즈를 풀고, `Join a free plan` 버튼을 클릭한다.  
 ![03](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/03.png)
 
-- 메일이 도착하면 `Verify email address` 버튼을 클릭한다. 홈페이에서는 관심사를 설정할 수 있다.
+- 메일이 도착하면 `Verify email address` 버튼을 클릭한다. 홈페이지에서는 관심사를 설정할 수 있다.
 ![04](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/04.png)  
 
 ### 2. Atom 설치
-- Atom 홈페이지에 접속한다. (https://atom.io/)   
+- Atom 홈페이지에 접속한다. (https://atom.io/)     
 ![05](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/05.png)    
 
 - `Download` 버튼을 클릭하여 Atom 설치 파일을 다운로드 한다. (약 180MB)
 
-- 다운로드가 완료도면, 설치 파일을 실행한다.
+- 다운로드가 완료되면, 설치 파일을 실행한다.
 > 설치는 자동으로 진행된다.
 >> 경로는 Windows의 경우 C:\Users\[USER]\AppData\Local\atom 이다.
 
-
+- Atom이 시작되면, 우선 다음 단계를 진행한다.  
 ![05-1](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/05-1.png)  
 
 ### 3. Git 설치  
@@ -34,17 +34,14 @@
 - `Downloads` 메뉴나 좌측 모니터 모양의 메뉴에서 설치파일을 다운로드 한다. (약 45MB)  
 ![06](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/06.png)    
 
-- 다운로드가완료되면, 설치를 진행한다.  
-![07](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/07.png)  
+- 다운로드가완료되면, 설치를 진행한다.   
 ![08](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/08.png)    
-![09](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/08.png)    
+![09](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/09.png)    
+- 취향에 따라 체크박스를 선택하거나 제거할 수 있다.  
 ![10](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/10.png)  
-> 취향에 따라 체크박스를 선택하거나 제거할 수 있다.  
-
 ![11](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/11.png)  
+- Git에서 사용할 기본 Editor를 선택한다.
 ![12](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/12.png)  
-> Git에서 사용할 기본 Editor를 선택한다.  
-
 ![13](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/13.png)      
 ![14](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/14.png)  
 ![15](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/15.png)   
@@ -59,13 +56,12 @@
 ![21](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/21.png)  
 
 - `Repository name`을 입려한 후, `Create repository`버튼을 클릭한다.  
-> Repository를 Public혹은 Private하게 사용할 것인지를 선택할 수있다. 그 외에 Repository 초기화(initialization)를 하거나 등의 설정을 할 수 있으나, 나중에도 설정이 가능하기 때문에 지금은 건너뛴다.  
-
 ![22](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/22.png)  
 ![23](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/23.png)  
+> Repository를 Public혹은 Private하게 사용할 것인지를 선택할 수있다. 그 외에 Repository 초기화(initialization)를 하거나 등의 설정을 할 수 있으나, 나중에도 설정이 가능하기 때문에 지금은 건너뛴다.  
 
 ### 5. Atom 설정
-- Atom에서  `Ctrl + ,` 키를 입력하여 `Setting` 페이지를 연다. 좌측 `Install` 메뉴를 선택한 후, `git-plus` 패키지를 검색하여 `Install` 버튼을 클릭한다.
+- Atom에서  `Ctrl + ,` 키를 입력하여 `Setting` 페이지를 연다. 좌측 `Install` 메뉴를 선택한 후, `git-plus` 패키지를 검색하여 `Install` 버튼을 클릭한다.  
 ![24](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/24.png)  
 
 - `Ctrl + Shift + A` 키를 이용하여 프로젝트 폴더를 생성하거나 지정한다.  
@@ -80,20 +76,18 @@ Test File
 ```
 - `Ctrl + S` 키를 입력하여 저장한 후, 상단 `Package` 메뉴에서 `Github-Toggle`-`Git Tab`을 선택하거나, `Ctrl + Shift + 9` 키를 이용하여 `Git Tab`을 연다.  
 
-- `Git Tab`에 있는 `Create Repository` 버튼을 클릭한 후, 현재 프로젝트 폴더를 지정한다.   
-> 해당 프로젝트 폴더는 Local Repository 폴더가 된다.  
-
+- `Git Tab`에 있는 `Create Repository` 버튼을 클릭한 후, 현재 프로젝트 폴더를 지정한다.  
 ![25](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/25.png)  
+> 해당 프로젝트 폴더는 Local Repository 폴더가 된다.
 
 - `Init` 버튼을 클릭하면, 프로젝트 폴더 아래 `.git` 폴더가 생성된다.
 > 해당 과정은 `$git init` 이라는 명령어로 대체 할 수 있다.  
 
 ### Git Bash 설정
 - Git Bash를 실행한 후, 프로젝트 폴더로 이동한다. (Local Repository)  
-> Linux의 다양한 명령어를 사용할 수 있다.  
-
-![26](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/26.png)  
-> Atom에서 해당 폴더를 git이 사용할 수있도록 초기화하였기 때문에, Master Branch를 나타내는 (master)가 프롬프트에 출력된다.
+![26](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/26.png)
+> Linux의 다양한 명령어를 사용할 수 있다.
+>> Atom에서 해당 폴더를 git이 사용할 수있도록 초기화하였기 때문에, Master Branch를 나타내는 (master)가 프롬프트에 출력된다.
 
 ```Bash
 # GitHub 페이지에서 명령어를 참고할 수 있다.
@@ -101,12 +95,14 @@ $git config user.name [USER_NAME]
 $git config user.email [E_MAIL]
 $git remote add origin https://github.com/[USERNAME]/[REPOSITORY_NAME].git
 ```
+- 순서대로 명령어를 입력한다.  
 ![27](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/27.png)  
 ```Bash
 $git add README.md
 $git commit –m “First commit”
 $git push –u origin master
 ```
+- 순서 대로 명령어를 입력한다.  
 ![28](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/28.png)
 
 ```Bash
@@ -120,8 +116,8 @@ To https://github.com/dongsamtest/test.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
-> `git push` 명령어 입력 시 최초 한번 로그인이 필요하다.  
 
+- `git push` 명령어 입력 시 최초 한번 로그인이 필요하다.  
 ![29](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/29.png)
 
 ### 연동 확인
