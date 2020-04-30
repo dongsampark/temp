@@ -1,6 +1,6 @@
 # GitHub와 Atom 연동하기
 ---
-### 1. GitHub 계정 생성
+### 1. GitHub 계정 생성  
 - GitHub 홈페이지에 접속한다. (https://github.com/)
 
 - 회원 가입을 위해 `Sign Up` 버튼을 클릭한다.  
@@ -15,7 +15,7 @@
 - 메일이 도착하면 `Verify email address` 버튼을 클릭한다. 홈페이지에서는 관심사를 설정할 수 있다.
 ![04](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/04.png)  
 
-### 2. Atom 설치
+### 2. Atom 설치  
 - Atom 홈페이지에 접속한다. (https://atom.io/)     
 ![05](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/05.png)    
 
@@ -50,7 +50,7 @@
 ![18](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/18.png)    
 ![19](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/19.png)    
 
-### 4. GitHub (Remote) Repository 생성
+### 4. GitHub (Remote) Repository 생성  
 - 우측 상단 프로필 아이콘을 클릭한 후, `Your Repository`를 클릭한다. 초기 화면으로 이동되며, 좌측 `New`버튼을 클릭한다.  
 ![20](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/20.png)  
 ![21](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/21.png)  
@@ -60,7 +60,7 @@
 ![23](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/23.png)  
   > Repository를 Public혹은 Private하게 사용할 것인지를 선택할 수있다. 그 외에 Repository 초기화(initialization)를 하거나 등의 설정을 할 수 있으나, 나중에도 설정이 가능하기 때문에 지금은 건너뛴다.  
 
-### 5. Atom 설정
+### 5. Atom 설정  
 - Atom에서  `Ctrl + ,` 키를 입력하여 `Setting` 페이지를 연다. 좌측 `Install` 메뉴를 선택한 후, `git-plus` 패키지를 검색하여 `Install` 버튼을 클릭한다.  
 ![24](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/24.png)  
 
@@ -84,7 +84,7 @@
 - `Init` 버튼을 클릭하면, 프로젝트 폴더 아래 `.git` 폴더가 생성된다.
   > 해당 과정은 `$git init` 이라는 명령어로 대체 할 수 있다.  
 
-### Git Bash 설정
+### 6. Git Bash 설정  
 - Git Bash를 실행한 후, 프로젝트 폴더로 이동한다. (Local Repository)  
 ![26](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/26.png)
   > Linux의 다양한 명령어를 사용할 수 있다.
@@ -96,32 +96,35 @@
   $git config user.email [E_MAIL]
   $git remote add origin https://github.com/[USERNAME]/[REPOSITORY_NAME].git
 ```
+
 - 순서대로 명령어를 입력한다.  
-![27](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/27.png)  
+![27](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/27.png)
+
   ```Bash
   $git add README.md
   $git commit –m “First commit”
   $git push –u origin master
   ```
+
 - 순서 대로 명령어를 입력한다.  
 ![28](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/28.png)
 
   ```Bash
-# git push Example
-$ git push -u origin master
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 238 bytes | 119.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/dongsamtest/test.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+  # git push Example
+  $ git push -u origin master
+  Enumerating objects: 3, done.
+  Counting objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 238 bytes | 119.00 KiB/s, done.
+  Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+  To https://github.com/dongsamtest/test.git
+   * [new branch]      master -> master
+  Branch 'master' set up to track remote branch 'master' from 'origin'.
   ```
 
 - `git push` 명령어 입력 시 최초 한번 로그인이 필요하다.  
 ![29](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/29.png)
 
-### 연동 확인
+### 7. 연동 확인  
 - GitHub Repository에서 Push한 `README.md` 파일을 확인할 수 있다.  
 ![30](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/30.png)  
 
