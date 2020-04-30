@@ -22,8 +22,8 @@
 - `Download` 버튼을 클릭하여 Atom 설치 파일을 다운로드 한다. (약 180MB)
 
 - 다운로드가 완료되면, 설치 파일을 실행한다.
-> 설치는 자동으로 진행된다.
->> 경로는 Windows의 경우 C:\Users\[USER]\AppData\Local\atom 이다.
+  > 설치는 자동으로 진행된다.
+  >> 경로는 Windows의 경우 C:\Users\[USER]\AppData\Local\atom 이다.
 
 - Atom이 시작되면, 우선 다음 단계를 진행한다.  
 ![05-1](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/05-1.png)  
@@ -58,30 +58,30 @@
 - `Repository name`을 입려한 후, `Create repository`버튼을 클릭한다.  
 ![22](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/22.png)  
 ![23](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/23.png)  
-> Repository를 Public혹은 Private하게 사용할 것인지를 선택할 수있다. 그 외에 Repository 초기화(initialization)를 하거나 등의 설정을 할 수 있으나, 나중에도 설정이 가능하기 때문에 지금은 건너뛴다.  
+  > Repository를 Public혹은 Private하게 사용할 것인지를 선택할 수있다. 그 외에 Repository 초기화(initialization)를 하거나 등의 설정을 할 수 있으나, 나중에도 설정이 가능하기 때문에 지금은 건너뛴다.  
 
 ### 5. Atom 설정
 - Atom에서  `Ctrl + ,` 키를 입력하여 `Setting` 페이지를 연다. 좌측 `Install` 메뉴를 선택한 후, `git-plus` 패키지를 검색하여 `Install` 버튼을 클릭한다.  
 ![24](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/24.png)  
 
 - `Ctrl + Shift + A` 키를 이용하여 프로젝트 폴더를 생성하거나 지정한다.  
-> Add Project Folder - `Ctrl + Shift + A`  
+  > Add Project Folder - `Ctrl + Shift + A`  
 
 - 좌측 `Project` 탭에서 생성한 폴더를 클릭 한 후, `a`키를 입력하면 새로운 파일을 만들 수 있다.
 
 - 파일명 : `README.md`
-```bash
+  ```bash
 # README.md
 Test File
-```
+  ```
 - `Ctrl + S` 키를 입력하여 저장한 후, 상단 `Package` 메뉴에서 `Github-Toggle`-`Git Tab`을 선택하거나, `Ctrl + Shift + 9` 키를 이용하여 `Git Tab`을 연다.  
 
 - `Git Tab`에 있는 `Create Repository` 버튼을 클릭한 후, 현재 프로젝트 폴더를 지정한다.  
 ![25](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/25.png)  
-> 해당 프로젝트 폴더는 Local Repository 폴더가 된다.
+  > 해당 프로젝트 폴더는 Local Repository 폴더가 된다.
 
 - `Init` 버튼을 클릭하면, 프로젝트 폴더 아래 `.git` 폴더가 생성된다.
-> 해당 과정은 `$git init` 이라는 명령어로 대체 할 수 있다.  
+  > 해당 과정은 `$git init` 이라는 명령어로 대체 할 수 있다.  
 
 ### Git Bash 설정
 - Git Bash를 실행한 후, 프로젝트 폴더로 이동한다. (Local Repository)  
