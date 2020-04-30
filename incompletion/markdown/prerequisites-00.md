@@ -86,27 +86,27 @@ Test File
 ### Git Bash 설정
 - Git Bash를 실행한 후, 프로젝트 폴더로 이동한다. (Local Repository)  
 ![26](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/26.png)
-> Linux의 다양한 명령어를 사용할 수 있다.
->> Atom에서 해당 폴더를 git이 사용할 수있도록 초기화하였기 때문에, Master Branch를 나타내는 (master)가 프롬프트에 출력된다.
+  > Linux의 다양한 명령어를 사용할 수 있다.
+  >> Atom에서 해당 폴더를 git이 사용할 수있도록 초기화하였기 때문에, Master Branch를 나타내는 (master)가 프롬프트에 출력된다.
 
-```Bash
-# GitHub 페이지에서 명령어를 참고할 수 있다.
-$git config user.name [USER_NAME]
-$git config user.email [E_MAIL]
-$git remote add origin https://github.com/[USERNAME]/[REPOSITORY_NAME].git
-```
+  ```Bash
+  # GitHub 페이지에서 명령어를 참고할 수 있다.
+  $git config user.name [USER_NAME]
+  $git config user.email [E_MAIL]
+  $git remote add origin https://github.com/[USERNAME]/[REPOSITORY_NAME].git
+  ```
 - 순서대로 명령어를 입력한다.  
 ![27](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/27.png)  
-```Bash
-$git add README.md
-$git commit –m “First commit”
-$git push –u origin master
-```
+  ```Bash
+  $git add README.md
+  $git commit –m “First commit”
+  $git push –u origin master
+  ```
 - 순서 대로 명령어를 입력한다.  
 ![28](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/28.png)
 
-```Bash
-# git push Example
+  ```Bash
+  # git push Example
 $ git push -u origin master
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
@@ -115,7 +115,7 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/dongsamtest/test.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-```
+  ```
 
 - `git push` 명령어 입력 시 최초 한번 로그인이 필요하다.  
 ![29](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/29.png)
