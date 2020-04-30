@@ -4,4 +4,4 @@
 1-1 GitHub 홈페이지에 접속한다.   
 - https://github.com/
 - 회원 가입을 위해 `Sign Up` 버튼을 클릭한다.
-- ![01](incompletion/images/20200430/01.jpg)
+- ![01](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/01.png)
