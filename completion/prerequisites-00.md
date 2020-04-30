@@ -1,5 +1,5 @@
 # GitHub와 Atom 연동하기
----
+
 ### 1. GitHub 계정 생성  
 - GitHub 홈페이지에 접속한다. (https://github.com/)
 
