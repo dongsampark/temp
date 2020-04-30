@@ -97,8 +97,9 @@
   $git remote add origin https://github.com/[USERNAME]/[REPOSITORY_NAME].git
   ```
 
-- 순서대로 명령어를 입력한다.   
-![27](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/27.png)
+- 순서대로 명령어를 입력한다.  
+
+  ![27](https://github.com/dongsampark/temp/blob/master/incompletion/images/20200430/27.png)
 
   ```Bash
   $git add README.md
