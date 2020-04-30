@@ -69,7 +69,8 @@
 
 - 좌측 `Project` 탭에서 생성한 폴더를 클릭 한 후, `a`키를 입력하면 새로운 파일을 만들 수 있다.
 
-- 파일명 : `README.md`  
+- 파일명 : `README.md`
+ 
   ```bash
 # README.md
 Test File
