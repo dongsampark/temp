@@ -70,12 +70,11 @@
 - 좌측 `Project` 탭에서 생성한 폴더를 클릭 한 후, `a`키를 입력하면 새로운 파일을 만들 수 있다.
 
 - 파일명 : `README.md`
-
-  ```Bash
+  ```
   # README.md
   Test File
   ```
-  
+
 - `Ctrl + S` 키를 입력하여 저장한 후, 상단 `Package` 메뉴에서 `Github-Toggle`-`Git Tab`을 선택하거나, `Ctrl + Shift + 9` 키를 이용하여 `Git Tab`을 연다.  
 
 - `Git Tab`에 있는 `Create Repository` 버튼을 클릭한 후, 현재 프로젝트 폴더를 지정한다.  
