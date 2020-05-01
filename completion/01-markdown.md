@@ -90,16 +90,62 @@ int main(int argc, char * argv[])
 ~~~
 - 코드에 사용된 언어를 명시하면, Syntax highlight가 활성화 된다.
 
-### 6. Images
+### 6. Inline Code Blocks
+```
+`Code` #Grave Accent ( ` )
+```
+
+### 7. Images
 ```
 ![TEXT](IMAGE_FILE_PATH)
 ![TEXT](IMAGE_URL)
 ```
 - Repository 경로에 위치한 이미지와 외부에 위치한 이미지를 사용할 수 있습니다.
 
-### 7. Link
+### 8. Link
 ```
 https://github.com/parkdongsam
 [PARK DongSam GitHub](https://github.com/parkdongsam)
 ```
 - URL주소를 작성하면 자동으로 링크가되며, 다른 텍스트로 대체할 수 있습니다.
+
+### 9. Emphasis
+```
+*Bold*
+_Bold_
+**Italic**
+__Italic**
+~strikethrough~
+```
+- 문자를 강조할 수 있습니다.
+- 출력 결과 입니다.  
+  *Bold*  
+  _Bold_  
+  **Italic**  
+  __Italic__   
+  ~strikethrough~  
+
+### 10. Tables
+```
+# 기본
+Header 1  | Header 2
+--------- | ---------
+Content 1 | Content 3
+Content 2 | Content 4
+
+# 정렬
+| Header 1  | Header 2   | Header 3  |
+| :-------- | :--------: | --------: |
+| Left      | Center     | Right     |   
+```
+
+- 출력 결과 입니다.
+
+  Header 1  | Header 2
+  --------- | ---------
+  Content 1 | Content 3
+  Content 2 | Content 4
+
+  | Header 1  | Header 2   | Header 3  |
+  | :-------- | :--------: | --------: |
+  | Left      | Center     | Right     |
